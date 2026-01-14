@@ -128,4 +128,18 @@ img { max-width: 100%; height: auto; display: block; }
 /* small helper: subtle section titles */
 .section-subtitle { font-size: 0.95rem; color: rgba(0,0,0,0.65); margin-bottom: 8px; }
 
+/* Override desktop negative spacing that caused overlap on mobile */
+.section-subtitle {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 0.95rem !important;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 0.9rem !important;
+    font-size: 1.15rem !important;
+    line-height: 1.08 !important;
+}
+
 /* End mobile tweaks */
